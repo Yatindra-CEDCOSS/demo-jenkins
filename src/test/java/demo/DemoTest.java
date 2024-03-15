@@ -9,5 +9,6 @@ public class DemoTest extends BaseClass{
 	@Test
 	public void openGoogle() {
 		util.openBrowser("chrome", "https://www.google.com");
+		util.getDriver().quit();
 	}
 }
